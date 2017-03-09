@@ -22,15 +22,6 @@ namespace Lefarge_FE_App {
         protected global::System.Web.UI.WebControls.PlaceHolder plhPublic;
         
         /// <summary>
-        /// plhPrivate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.PlaceHolder plhPrivate;
-        
-        /// <summary>
         /// plhUnprivlidges control.
         /// </summary>
         /// <remarks>
@@ -38,6 +29,15 @@ namespace Lefarge_FE_App {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.PlaceHolder plhUnprivlidges;
+        
+        /// <summary>
+        /// plhPrivate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.PlaceHolder plhPrivate;
         
         /// <summary>
         /// plhLafargeUser control.

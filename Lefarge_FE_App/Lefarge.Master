@@ -45,6 +45,9 @@
             <li><a href="register.aspx">Register</a></li>
              <li><a  href="login.aspx">Log in</a></li></asp:PlaceHolder>
 
+            <asp:PlaceHolder runat="server" ID="plhUnprivlidges">
+               <li><a  rel="external" href="/lafargeUser/logout.aspx">Log out</a></li></asp:PlaceHolder>
+
             <asp:PlaceHolder runat="server" id="plhPrivate">
             <li><a  rel="external" href="/admin/startSurvey.aspx">Start Survey</a></li>
             <li><a  rel="external" href="/lafargeUser/plants.aspx">Plant</a></li>
