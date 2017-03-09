@@ -15,6 +15,11 @@ namespace Lefarge_FE_App
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (User.IsInRole("admin") || User.IsInRole("user") || User.IsInRole("member"))
+            {
+                Response.Redirect("/lafargeUser/default.aspx");
+            }
+            
 
         }
 
