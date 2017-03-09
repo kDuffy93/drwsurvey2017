@@ -24,7 +24,7 @@ namespace Lefarge_FE_App
                 plhUser.Visible = false;
                 txtWelcomeMember.Text = "Welcome " + HttpContext.Current.User.Identity.Name.ToString();
             }
-            else if (HttpContext.Current.User.IsInRole(""))
+            else if (!HttpContext.Current.User.IsInRole("admin") || !HttpContext.Current.User.IsInRole("user")|| HttpContext.Current.User.IsInRole("member"))
             {
                 plhMember.Visible = false;
                 plhUser.Visible = false;
