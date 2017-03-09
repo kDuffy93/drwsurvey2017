@@ -17,26 +17,29 @@ namespace Lefarge_FE_App
                 plhPrivate.Visible = true;
                 plhPublic.Visible = false;
                 plhLafargeUser.Visible = false;
+                plhUnprivlidges.Visible = false;
             }
             else if (HttpContext.Current.User.Identity.IsAuthenticated && HttpContext.Current.User.IsInRole("admin"))
             {
                 plhPrivate.Visible = true;
                 plhPublic.Visible = false;
+                plhUnprivlidges.Visible = false;
                 plhLafargeUser.Visible = false;
             }
-            if (HttpContext.Current.User.Identity.IsAuthenticated)
-            {
-                if (HttpContext.Current.User.IsInRole("member"))
+            
+                else if (HttpContext.Current.User.Identity.IsAuthenticated && HttpContext.Current.User.IsInRole("member"))
                 {
                     plhPrivate.Visible = false;
                     plhPublic.Visible = false;
-                    plhLafargeUser.Visible = true;
+                plhUnprivlidges.Visible = false;
+                plhLafargeUser.Visible = true;
                 }
-            }
+            
             else
             {
+                plhUnprivlidges.Visible = true;
                 plhPrivate.Visible = false;
-                plhPublic.Visible = true;
+                plhPublic.Visible = false;
                 plhLafargeUser.Visible = false;
             }
             
