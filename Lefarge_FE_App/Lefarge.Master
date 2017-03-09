@@ -48,8 +48,8 @@
             <asp:PlaceHolder runat="server" id="plhPrivate">
             <li><a  rel="external" href="/admin/startSurvey.aspx">Start Survey</a></li>
             <li><a  rel="external" href="/lafargeUser/plants.aspx">Plant</a></li>
-            <li><a  rel="external" href="/lafargeUser/equipmentList.aspx">Equipment</a></li>
             <li><a  rel="external" href="/lafargeUser/categories.aspx">Categories</a></li> 
+            <li><a  rel="external" href="/lafargeUser/equipmentList.aspx">Equipment</a></li>
             <li><a  rel="external" href="/lafargeUser/headings.aspx">Headings</a></li> 
             <li><a  rel="external" href="/lafargeUser/questionList.aspx">Questions</a></li>
             <li><a  rel="external" href="/lafargeUser/startReport.aspx">Generate Reports</a></li>
@@ -57,8 +57,8 @@
              
             <asp:PlaceHolder runat="server" ID="plhLafargeUser">
             <li><a  rel="external" href="/lafargeUser/plants.aspx">Plant List</a></li>
-            <li><a  rel="external" href="/lafargeUser/equipmentList.aspx">Equipment List</a></li>
             <li><a  rel="external" href="/lafargeUser/categories.aspx">Category List</a></li> 
+            <li><a  rel="external" href="/lafargeUser/equipmentList.aspx">Equipment List</a></li>
             <li><a  rel="external" href="/lafargeUser/headings.aspx">Heading List</a></li> 
             <li><a  rel="external" href="/lafargeUser/questionList.aspx">Question List</a></li>
             <li><a rel="external"  href="/lafargeUser/startReport.aspx">Generate Reports</a></li>
