@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="report.master.cs" Inherits="Lefarge_FE_App.report" %>
+%@ Register Src="~/controls/defrib.ascx" TagPrefix="uc1" TagName="defrib" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <title>Lafarge Fixed Equipment Surveys</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.4.3.min.js"></script>
+    
+	<script src="http://code.jquery.com/mobile/1.0a1/jquery.mobile-1.0a1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    
+</head>
+<body>
+   
+    <form data-role="page" runat="server">
+         
+  <nav class="nav navbar-default">
+       
+        <ul class="nav navbar-nav">
+            <li> <a rel="external"  href="/lafargeUser/default.aspx"> <asp:Image runat="server"  ImageUrl="images/lafarge.jpg" PostBackUrl="~/default.aspx" AlternateText="Lafarge Home"/></a></li>
+            </ul>
+      </nav>
+    
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
+
