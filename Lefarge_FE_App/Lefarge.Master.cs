@@ -34,7 +34,14 @@ namespace Lefarge_FE_App
                 plhUnprivlidges.Visible = false;
                 plhLafargeUser.Visible = true;
                 }
-            
+            else if (!HttpContext.Current.User.Identity.IsAuthenticated)
+            {
+                plhPrivate.Visible = false;
+                plhPublic.Visible = true;
+                plhUnprivlidges.Visible = false;
+                plhLafargeUser.Visible = false;
+            }
+
             else
             {
                 plhUnprivlidges.Visible = true;
