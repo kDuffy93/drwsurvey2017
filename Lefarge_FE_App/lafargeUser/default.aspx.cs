@@ -28,7 +28,7 @@ namespace Lefarge_FE_App
             {
                 plhMember.Visible = false;
                 plhUser.Visible = false;
-                txtWelcomeMember.Text = "somethings gone wrong, your account's privledges have been revoked. contact IT support";
+                txtWelcomeMember.Text = "somethings gone wrong, your account's privledges have been revoked or you're not signed in. Try heading to the login page and try again or contact IT support";
             }
         }
     }
