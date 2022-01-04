@@ -22,6 +22,7 @@
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -337,6 +338,9 @@
     <Compile Include="Models\Heading.cs">
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\ipv6_database_firewall_rules.cs">
+      <DependentUpon>drwdata.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\lefargeEntities.cs" />
     <Compile Include="admin\plant.aspx.cs">
       <DependentUpon>plant.aspx</DependentUpon>
@@ -385,6 +389,9 @@
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Result.cs">
+      <DependentUpon>drwdata.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sampleTable.cs">
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
