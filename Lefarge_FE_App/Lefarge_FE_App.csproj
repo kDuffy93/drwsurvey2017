@@ -308,12 +308,6 @@
     <Compile Include="Models\Category.cs">
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\C__MigrationHistory.cs">
-      <DependentUpon>drwdata.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\database_firewall_rules.cs">
-      <DependentUpon>drwdata.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\Deficiency.cs">
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
@@ -336,9 +330,6 @@
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Heading.cs">
-      <DependentUpon>drwdata.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\ipv6_database_firewall_rules.cs">
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\lefargeEntities.cs" />
@@ -389,9 +380,6 @@
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Result.cs">
-      <DependentUpon>drwdata.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\sampleTable.cs">
       <DependentUpon>drwdata.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />

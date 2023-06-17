@@ -128,4 +128,4 @@ C:\Users\kyled\OneDrive\Documents\GitHub\drwsurvey2021\Lefarge_FE_App\obj\Debug\
 C:\Users\kyled\OneDrive\Documents\GitHub\drwsurvey2021\Lefarge_FE_App\obj\Debug\Lefarge_FE_App.csproj.CopyComplete
 C:\Users\kyled\OneDrive\Documents\GitHub\drwsurvey2021\Lefarge_FE_App\obj\Debug\Lefarge_FE_App.dll
 C:\Users\kyled\OneDrive\Documents\GitHub\drwsurvey2021\Lefarge_FE_App\obj\Debug\Lefarge_FE_App.pdb
-C:\Users\kyled\OneDrive\Documents\GitHub\drwsurvey2021\Lefarge_FE_App\obj\Debug\Lefarge_FE_App.csprojAssemblyReference.cache
+C:\Users\kyled\OneDrive\Documents\GitHub\drwsurvey2021\Lefarge_FE_App\obj\Debug\Lefarge_FE_App.csproj.AssemblyReference.cache

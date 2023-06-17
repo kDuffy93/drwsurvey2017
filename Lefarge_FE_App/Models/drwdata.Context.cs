@@ -25,7 +25,6 @@ namespace Lefarge_FE_App.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<C__MigrationHistory> C__MigrationHistory { get; set; }
         public virtual DbSet<Action_Plan> Action_Plan { get; set; }
         public virtual DbSet<AspNetRole> AspNetRoles { get; set; }
         public virtual DbSet<AspNetUserClaim> AspNetUserClaims { get; set; }
@@ -41,6 +40,5 @@ namespace Lefarge_FE_App.Models
         public virtual DbSet<Potential_Deficiencies> Potential_Deficiencies { get; set; }
         public virtual DbSet<Question> Questions { get; set; }
         public virtual DbSet<Result> Results { get; set; }
-        public virtual DbSet<database_firewall_rules> database_firewall_rules { get; set; }
     }
 }
